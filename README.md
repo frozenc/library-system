@@ -4,9 +4,7 @@
 实现功能：图书增删改查，读者增删改查
 
 ### 项目一览<br/>
-<img src="https://github.com/ValueStar/Books-Management-System/blob/master/preview/1.PNG">
-<img src="https://github.com/ValueStar/Books-Management-System/blob/master/preview/2.PNG">
-<img src="https://github.com/ValueStar/Books-Management-System/blob/master/preview/3.PNG">
-<img src="https://github.com/ValueStar/Books-Management-System/blob/master/preview/4.PNG">
-<img src="https://github.com/ValueStar/Books-Management-System/blob/master/preview/5.PNG">
-<img src="https://github.com/ValueStar/Books-Management-System/blob/master/preview/6.PNG">
+<img src="https://github.com/frozenc/library-system/blob/master/pic/1.png">
+<img src="https://github.com/frozenc/library-system/blob/master/pic/2.png">
+<img src="https://github.com/frozenc/library-system/blob/master/pic/3.png">
+<img src="https://github.com/frozenc/library-system/blob/master/pic/4.png">
