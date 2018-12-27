@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400italic);
+/* var text-decoration */
+/*--
+	Common Css
+--*/
+
+body {
+    background-image: url("../img/bana.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: 100% 100%;
+    /*background-color: rgb(240,242,245);*/
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+body .navbar {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/*导航栏文字颜色*/
+body .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+body .navbar-default .navbar-brand {
+    color: white;
+}
+
+.panel .panel-heading {
+    height: 55px;
+}
+
+.panel .panel-heading h3 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+div panel-default {
+    margin-top: 50px;
+}
+
+#myCarousel{
+    /*margin-left: 2%;*/
+    /*width: 60%;*/
+    /*height: 70%;*/
+    float: left;
+    z-index: 999;
+    display: inline;
+}
+/*#login{*/
+    /*float: left;*/
+    /*height: 50%;*/
+    /*width: 23%;*/
+    /*margin-left: 6%;*/
+    /*margin-top: 6%;*/
+    /*display: inline;*/
+    /*z-index: 999;*/
+/*}*/
+#loginModal .modal-dialog {
+    width: 20%;
+    top: 20%;
+}
+#loginModal .modal-content {
+    background-color: transparent;
+    color: white;
+}
+* {
+    padding:0;
+    margin:0;
+}
+#myCarousel .carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#indexTable .type-info {
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+#indexTable h2 {
+    padding-left: 19%;
+}
+
+.table .input-group {
+    width: 50%;
+    float: right;
+    padding: 0px 0px;
+}
+
+.alert {
+    z-index: 999;
+}
+
+.navbar .navbar-brand .text-primary {
+    color:white;
+}
+
+#repasswd .form-group label {
+    color: white;
+}

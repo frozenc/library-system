@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+        <!-- 扫描类包，将标注Spring注解的类自动转化为Bean，同时完成Bean的注入  -->
+        <context:component-scan base-package="com.book.dao"/>
+    <context:component-scan base-package="com.book.service"/>
+
+    <!-- 读取数据 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--  定义一个使用DBCP实现的数据源 -->
+    <!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"-->
+          <!--destroy-method="close"-->
+          <!--p:driverClassName="${jdbc.driverClassName}"-->
+          <!--p:url="${jdbc.url}"-->
+            <!--p:username="${jdbc.username}"-->
+          <!--p:password="${jdbc.password}"/>-->
+
+    <!-- dataSource -->
+    <bean id="dataSource" destroy-method="close"
+          class="org.apache.commons.dbcp.BasicDataSource">
+        <!-- 数据库地址 -->
+        <property name="url" value="${jdbc.url}"/>
+        <!-- 数据库账号 -->
+        <property name="username" value="${jdbc.username}"/>
+        <!-- 数据库密码 -->
+        <property name="password" value="${jdbc.password}"/>
+        <!-- 数据库驱动 -->
+        <property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <!-- 最大连接数 -->
+        <property name="maxActive" value="${jdbc.maxTotal}"/>
+        <!-- 最大空闲连接数 -->
+        <property name="maxIdle" value="${jdbc.maxIdle}"/>
+        <!-- 最小空闲连接数 -->
+        <property name="minIdle" value="${jdbc.minIdle}"/>
+    </bean>
+
+    <!-- 定义JDBC模板Bean   -->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
+          p:dataSource-ref="dataSource"/>
+
+
+</beans>
