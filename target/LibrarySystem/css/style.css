@@ -1,0 +1,44 @@
+#myCarousel .carousel-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+body .navbar {
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 999;
+}
+
+.navbar {
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+body{
+    background-color: rgb(240,242,245);
+}
+body {
+    background-image: url("/images/bana.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: 100% 100%;
+    /*background-color: rgb(240,242,245);*/
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+/*导航栏文字颜色*/
+body .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+}
+
+
