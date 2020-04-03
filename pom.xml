@@ -24,7 +24,7 @@
     <aspectjweaver-version>1.8.6</aspectjweaver-version>
     <mybatis-version>3.2.7</mybatis-version>
     <mybatis-spring-version>1.2.3</mybatis-spring-version>
-    <log4j-version>1.2.17</log4j-version>
+    <log4j-version>2.12.1</log4j-version>
     <mysql-connector-java-version>5.1.38</mysql-connector-java-version>
     <jackson-version>2.9.10.3</jackson-version>
     <fastjson-version>1.2.25</fastjson-version>
@@ -85,8 +85,8 @@
     </dependency>
     <!-- log4j 日志 -->
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
       <version>${log4j-version}</version>
     </dependency>
     <!-- mysql 驱动类 -->
