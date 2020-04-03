@@ -13,9 +13,11 @@
 
 ![Image text](https://github.com/frozenc/library-system/blob/master/pic/1.png?raw=true)
 
-![Image text](https://github.com/frozenc/library-system/blob/master/pic/1.png?raw=true)
+![Image text](https://github.com/frozenc/library-system/blob/master/pic/2.png?raw=true)
 
-![Image text](https://github.com/frozenc/library-system/blob/master/pic/1.png?raw=true)
+![Image text](https://github.com/frozenc/library-system/blob/master/pic/3.png?raw=true)
+
+![Image text](https://github.com/frozenc/library-system/blob/master/pic/4.png?raw=true)
 
 
 
