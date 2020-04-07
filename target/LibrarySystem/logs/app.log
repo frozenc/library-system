@@ -1,0 +1,6 @@
+[DEBUG] [2020-04-07 22:05:38][com.cc.library.mapper.UserMapper.selByName]==>  Preparing: select * from users where username=? 
+[DEBUG] [2020-04-07 22:05:38][com.cc.library.mapper.UserMapper.selByName]==> Parameters: 111(String)
+[DEBUG] [2020-04-07 22:05:39][com.cc.library.mapper.UserMapper.selByName]<==      Total: 1
+[DEBUG] [2020-04-07 22:05:39][com.cc.library.mapper.BookMapper.selAllBooks]==>  Preparing: select * from books 
+[DEBUG] [2020-04-07 22:05:39][com.cc.library.mapper.BookMapper.selAllBooks]==> Parameters: 
+[DEBUG] [2020-04-07 22:05:39][com.cc.library.mapper.BookMapper.selAllBooks]<==      Total: 14
