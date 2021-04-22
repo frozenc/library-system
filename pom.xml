@@ -22,7 +22,7 @@
     <jstl-version>1.2</jstl-version>
     <spring-version>4.1.6.RELEASE</spring-version>
     <aspectjweaver-version>1.8.6</aspectjweaver-version>
-    <mybatis-version>3.2.7</mybatis-version>
+    <mybatis-version>3.5.6</mybatis-version>
     <mybatis-spring-version>1.2.3</mybatis-spring-version>
     <log4j-version>2.12.1</log4j-version>
     <mysql-connector-java-version>5.1.38</mysql-connector-java-version>
